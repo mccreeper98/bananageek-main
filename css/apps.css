@@ -1,0 +1,150 @@
+.boton-flotante {
+    cursor: pointer;
+    position: fixed;
+    display: block;
+    width: 8vw;
+    top: 15px;
+    left: 88vw;
+    margin-right: 15px;
+    min-width: 132px;
+    min-height: 103px;
+    max-width: 132px;
+    max-height: 103px;
+    z-index: 999 !important;
+    text-align: center;
+    transition: all 0.5s;
+}
+@media (max-width: 600px) {
+    .brand-logo  {
+        border: 1px solid red !important;
+        visibility: hidden;
+    }
+    .boton-flotante {
+        left: 43vw;
+        top: 2.5px;
+    }
+}
+
+.nav-bar{
+    height: 15vh !important;
+    background-color: white !important;
+}
+/*@media (max-width: 720px) {*/
+/*    .boton-flotante {*/
+/*        width: 30vw;*/
+/*    }*/
+/*    .boton-flotante .contenido {*/
+/*        width: 50vw;*/
+/*        border: 1px solid red;*/
+/*    }*/
+/*    .boton-flotante .btn-avatar {*/
+/*        width: 18vw;*/
+/*        height: 18vw;*/
+/*        margin-left: 6vw;*/
+/*        background-repeat: round;*/
+/*        background-image: url("../img/logos/banana geek_sombra.png");*/
+/*    }*/
+/*}*/
+.boton-flotante .contenido {
+    border: 1px solid #141414;
+    width: 10vw;
+    min-width: 128px;
+    min-height: 21px;
+    max-width: 128px;
+    max-height: 21px;
+    border-radius: 15px;
+    margin-left: -40%;
+    background-color: white;
+    display: inline-block;
+    transition: all 0.5s;
+    color: black !important;
+}
+.boton-flotante:hover .contenido {
+    background-color: #f7e008;
+}
+.boton-flotante .btn-avatar {
+    width: 5vw;
+    height: 5vw;
+    min-width: 88px;
+    min-height: 88px;
+    max-width: 88px;
+    max-height: 88px;
+    margin-left: 0%;
+    margin-top: -5%;
+    background-repeat: round;
+    background-image: url("../img/logos/banana geek_sombra.png");
+}
+
+.logos-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.platform-logo {
+
+    display: inline-block;
+    width: 64px;
+    height: 72px;
+    background-repeat: round;
+}
+.platform-text {
+    text-align: center;
+}
+.platform-box {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #141414;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 10px;
+}
+.platform-selected{
+    /*background-color: #f7e008;*/
+    background-color: #75bf44;
+}
+.platform-ios {
+    background-image: url("./../img/apps/ios-logo.png");
+}
+.platform-android {
+    background-image: url("./../img/apps/android-logo.png");
+}
+.platform-web {
+    background-image: url("./../img/apps/web-logo.png");
+}
+.boton {
+    width: 10vw;
+    min-width: 126px;
+    text-align: center;
+}
+.boton:hover {
+    background-color: #f7e008;
+}
+
+.textfield {
+    color: #75bf44;
+    font-size: 24px !important;
+    background-color: transparent !important;
+}
+.dropdown-content {
+    max-height: 15vh;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: #75bf44;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #75bf44;
+    box-shadow: 0 1px 0 0 #75bf44;
+}
+.cel {
+    margin-top: 15px !important;
+}
+
+
+
+
+

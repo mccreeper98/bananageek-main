@@ -1,0 +1,413 @@
+@font-face {
+font-family: "DejaVuSans";
+  src: url("../fonts/DejaVuSans.ttf");
+
+font-family: "Bold";
+	src: url("../fonts/DejaVuSans-Bold.ttf");
+
+font-family: "Extra";
+  src: url("../fonts/DejaVuSans-ExtraLight.ttf");
+}
+
+html{
+}
+
+body{
+	overflow-x: hidden;
+}
+
+.logo{
+	width: 10%;
+	min-width: 100px;
+	margin-left: 3%;
+	margin-top: 15px;
+}
+
+.logom #banana{
+	width: 10%;
+	min-width: 100px; 
+}
+
+#bananam{
+	width: 10%;
+	min-width: 100px;
+	margin-left: 3%;
+	margin-top: 15px;
+}
+
+nav {
+height: 9%;
+
+}
+
+nav,#ind {
+    position: fixed;
+    background: rgba(255, 255, 255, 1);
+    padding:0px 0px;
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0); 
+    -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+#titulom{
+	color: #9b9b9b;
+	letter-spacing: 0.4px;
+	font-weight: 100;
+	font-size: 2.5rem;
+}
+
+#menum{
+	color: #d1d1d1;
+	
+}
+
+.logo #banana{ 
+	width: 100%; 
+}
+
+.menu{
+	background-color: rgba(83,86,89,.8);
+	letter-spacing: 0.3px;
+	font-size: 14pt;
+	font-family: 'Palanquin', sans-serif;
+}
+
+#serviciosMenu{
+	background-color: rgba(0,0,0,0);
+}
+
+#serviciosMenu ul li a{
+	line-height: 100%;
+	letter-spacing: 0.3px;
+	font-family: 'Palanquin', sans-serif;
+}
+
+#menu{
+	margin-left: 38%;
+	color: #d1d1d1;
+}
+
+#bananaMenu{
+	width: 95%;
+	margin-top: 3%;
+	margin-left: 3%;
+}
+
+#titulo{
+	color: #9b9b9b;
+	letter-spacing: 0.4px;
+	font-weight: lighter;
+	font-size: 4rem;
+	margin-left: 25%;
+	margin-top: 15px;
+}
+
+.cabecera{
+	display: flex;
+	margin-bottom: 3%
+}
+
+.titulo{
+	text-align: center;
+	margin-top: 4%;
+}
+
+.titulos{
+	text-align: center;
+}
+
+.tit{
+	color: #9b9b9b;
+	letter-spacing: 0.4px;
+	font-weight: lighter;
+	font-size: 4rem;
+}
+
+.coppy{
+	color: #9b9b9b;
+	font-weight: 300;
+}
+
+#direccion{
+	font-size: 14pt;
+	letter-spacing: 0.3px;
+	line-height: 100%;
+	color: #4a4a4a;
+}
+
+#btne{
+	background-color: #75bf44;
+	font-size: 18pt;
+	letter-spacing: 0.4px;
+}
+
+#textav{
+	color: #4a4a4a;
+}
+
+.apps{
+	background-color: #75bf44;
+	margin-bottom: 3%;
+	padding: 0;
+}
+
+.diseno{
+	background-color: #bd10e0;
+	margin-bottom: 3%;
+	padding: 0;
+}
+
+.virtual{
+	background-color: #1dcea7;
+	margin-bottom: 3%;
+	padding: 0;
+}
+
+.modelado{
+	background-color: #f55753;
+	margin-bottom: 3%;
+	padding: 0;
+}
+
+.web{
+	background-color: #5f9fd5;
+	margin-bottom: 3%;
+	padding-right: 0;
+	margin-right: 0;
+}
+
+.realidad{
+	background-color: #f5a623;
+	margin-bottom: 3%;
+	padding: 0;
+}
+
+#lateral{
+	padding: 0;	
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+#lateral img{
+ 	bottom: 0px; 
+	right: 0px; 
+	min-width: 100%; 
+	min-height: 100%; 
+	width: 100%; 
+	height: auto; 
+	z-index: -1000; 
+	overflow: hidden; 
+	margin-bottom: -5px;
+}
+
+.diseno #lateral img{
+ 	bottom: 0px; 
+	right: 0px; 
+	min-width: 100%; 
+	min-height: 100%; 
+	width: 100%; 
+	height: auto; 
+	z-index: -1000; 
+	overflow: hidden; 
+	margin-bottom: -5px;
+}
+
+.virtual #lateral img{
+ 	bottom: 0px; 
+	right: 0px; 
+	min-width: 100%; 
+	min-height: 100%; 
+	width: 100%; 
+	height: auto; 
+	z-index: -1000; 
+	overflow: hidden; 
+	margin-bottom: -5px;
+}
+
+.virtual .ar{
+	font-family: 'Extra', sans-serif;
+	color: #fff;
+	letter-spacing: 0.3px;
+	line-height: 90%;
+	font-size: 2.5rem;
+	margin-left: 5%;
+	margin-top: 15%;
+	margin-bottom: 20px;
+}
+
+.virtual .ab{
+	font-family: 'DejaVuSans', sans-serif;
+	color: #fff;
+	letter-spacing: 0.3px;
+	font-size: 1rem;
+	margin-top: 0px;
+	margin-left: 5%;
+	margin-right: 15%;
+}
+
+.modelado #lateral img{
+ 	bottom: 0px; 
+	right: 0px; 
+	min-width: 100%; 
+	min-height: 100%; 
+	width: 100%; 
+	height: auto; 
+	z-index: -1000; 
+	overflow: hidden; 
+	margin-bottom: -5px;
+}
+
+.realidad #lateral img{
+ 	bottom: 0px; 
+	right: 0px; 
+	min-width: 100%; 
+	min-height: 100%; 
+	width: 100%; 
+	height: auto; 
+	z-index: -1000; 
+	overflow: hidden; 
+	margin-bottom: -5px;
+}
+
+.web #lateral img{
+ 	bottom: 0px; 
+	right: 0px; 
+	min-width: 100%; 
+	min-height: 100%; 
+	width: 100%; 
+	height: auto; 
+	z-index: -1000; 
+	overflow: hidden; 
+	margin-bottom: -5px;
+}
+
+.ar{
+	font-family: 'Extra', sans-serif;
+	color: #fff;
+	letter-spacing: 0.2px;
+	font-size: 2.5rem;
+	margin-left: 5%;
+	margin-top: 10%;
+	margin-bottom: 20px;
+}
+
+.ab{
+	font-family: 'DejaVuSans', sans-serif;
+	color: #fff;
+	letter-spacing: 0.3px;
+	font-size: 1rem;
+	margin-top: 4%;
+	margin-left: 5%;
+	margin-right: 15%;
+}
+
+.realidad .ar{
+	font-family: 'Extra', sans-serif;
+	color: #fff;
+	letter-spacing: 0.3px;
+	line-height: 90%;
+	font-size: 2.5rem;
+	margin-left: 5%;
+	margin-top: 15%;
+	margin-bottom: 20px;
+}
+
+.realidad .ab{
+	font-family: 'DejaVuSans', sans-serif;
+	color: #fff;
+	letter-spacing: 0.3px;
+	font-size: 1rem;
+	margin-top: 0px;
+	margin-left: 5%;
+	margin-right: 15%;
+}
+
+.modelado .ar{
+	font-family: 'Extra', sans-serif;
+ 	text-align: right;
+	color: #fff;
+	letter-spacing: 0.3px;
+	font-size: 2.5rem;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	margin-bottom: 20px;
+}
+
+.modelado .ab{
+	font-family: 'DejaVuSans', sans-serif;
+	text-align: right;
+	color: #fff;
+	letter-spacing: 0.3px;
+	font-size: 1rem;
+	margin-top: 0px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.diseno .ar{
+	font-family: 'Extra', sans-serif;
+ 	text-align: right;
+	color: #fff;
+	letter-spacing: 0.3px;
+	font-size: 4rem;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 9%;
+	margin-bottom: 20px;
+}
+
+.diseno .ab{
+	font-family: 'DejaVuSans', sans-serif;
+	text-align: right;
+	color: #fff;
+	letter-spacing: 0.3px;
+	font-size: 1rem;
+	margin-top: 0px;
+	margin-left: 15%;
+	margin-right: 10%;
+}
+
+.web .ar{
+	font-family: 'Extra', sans-serif;
+ 	text-align: right;
+	color: #fff;
+	letter-spacing: 0.2px;
+	font-size: 2.5rem;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10%;
+	margin-bottom: 20px;
+}
+
+.web .ab{
+	font-family: 'DejaVuSans', sans-serif;
+	text-align: right;
+	color: #fff;
+	letter-spacing: 0.3px;
+	font-size: 1rem;
+	margin-top: 5%;
+	margin-left: 15%;
+	margin-right: 10%;
+}
+
+.supra{
+	text-decoration: underline;
+}
+
+.enc{
+	font-size: 3rem;
+	letter-spacing: 0.7px;
+	line-height: 100%;
+	margin-top: 0;
+}
+
+.senc{
+	margin-top: -20%;
+	padding-top: 0;
+	font-size: 14pt;
+	font-weight: bold;
+}
