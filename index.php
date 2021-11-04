@@ -94,7 +94,7 @@
                 class="material-icons">menu</i></a>
           </div>
         </div>
-        <p id="titulo">CASOS DE ÉXITO</p>
+        <p id="titulo">CASOS DE ÉXITO Prueba</p>
       </div>
 
       <div class="center hide-on-large-only">
